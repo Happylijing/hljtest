@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46ad29ce-cfa8-4a31-9ab7-c3da18595359" name="Default Changelist" comment="第1次上传git">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytestdemo" beforeDir="false" afterPath="$PROJECT_DIR$/pytestdemo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pytestdemo/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pytestdemo/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +20,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/pytestdemo" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2gSMJ5owPVSmTVEYBMw70NEFhWM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -131,12 +134,20 @@
       <option name="project" value="LOCAL" />
       <updated>1716988244772</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="上传hljtest项目">
+      <created>1716997226509</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716997226509</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第1次上传git" />
-    <option name="LAST_COMMIT_MESSAGE" value="第1次上传git" />
+    <MESSAGE value="上传hljtest项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="上传hljtest项目" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -148,10 +159,10 @@
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
     <state x="-1506" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1716996267475" />
-    <state x="-1322" y="112" key="CommitChangelistDialog2" timestamp="1716996889615">
+    <state x="-1322" y="112" key="CommitChangelistDialog2" timestamp="1716997304161">
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
-    <state x="-1322" y="112" key="CommitChangelistDialog2/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1716996889615" />
+    <state x="-1322" y="112" key="CommitChangelistDialog2/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1716997304161" />
     <state width="1899" height="63" key="GridCell.Tab.0.bottom" timestamp="1716997140428">
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
@@ -192,10 +203,10 @@
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
     <state x="-1459" y="162" key="SettingsEditor/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1716989496821" />
-    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2" timestamp="1716997091763">
+    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2" timestamp="1716997455026">
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
-    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1716997091763" />
+    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1716997455026" />
     <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1716991961704">
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
