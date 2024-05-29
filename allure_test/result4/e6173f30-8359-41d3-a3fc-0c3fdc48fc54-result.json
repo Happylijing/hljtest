@@ -1,0 +1,55 @@
+{
+  "name": "登录失败",
+  "status": "passed",
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "d1fceb0b-97fe-4880-9e4f-d2386e8cc588-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "start": 1716975609824,
+  "stop": 1716975609824,
+  "uuid": "29a946d7-cdb9-437a-8480-d865be39d6c6",
+  "historyId": "bf56478e59104410acca2e30447747ae",
+  "testCaseId": "4cca7f3448de2c57f940b20c634ac3e2",
+  "fullName": "test_allure.TestLogin#test_login_failed1",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "登录模块"
+    },
+    {
+      "name": "story",
+      "value": "登录失败"
+    },
+    {
+      "name": "suite",
+      "value": "test_allure"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestLogin"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-AB77PAN"
+    },
+    {
+      "name": "thread",
+      "value": "3908-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_allure"
+    }
+  ]
+}

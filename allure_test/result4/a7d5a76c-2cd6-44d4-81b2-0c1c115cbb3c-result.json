@@ -1,0 +1,75 @@
+{
+  "name": "登录成功",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "步骤1：打开应用",
+      "status": "passed",
+      "start": 1716975609754,
+      "stop": 1716975609754
+    },
+    {
+      "name": "步骤2：进入登录页面",
+      "status": "passed",
+      "start": 1716975609754,
+      "stop": 1716975609754
+    },
+    {
+      "name": "步骤3：输入用户名和密码",
+      "status": "passed",
+      "start": 1716975609754,
+      "stop": 1716975609754
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "6bdbcfba-7981-43d1-853f-847ae1f312e4-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "start": 1716975609754,
+  "stop": 1716975609754,
+  "uuid": "89ba5701-608b-4aec-880c-b8285979667a",
+  "historyId": "507aa2df18696e179ef4511a505512da",
+  "testCaseId": "2f6cc0698a0e87eb6dfa3b077d67bf0d",
+  "fullName": "test_allure.TestLogin#test_login_success",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "登录模块"
+    },
+    {
+      "name": "story",
+      "value": "登录成功"
+    },
+    {
+      "name": "suite",
+      "value": "test_allure"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestLogin"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-AB77PAN"
+    },
+    {
+      "name": "thread",
+      "value": "3908-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_allure"
+    }
+  ]
+}

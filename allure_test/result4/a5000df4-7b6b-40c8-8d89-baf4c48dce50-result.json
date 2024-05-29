@@ -1,0 +1,51 @@
+{
+  "name": "test_case1",
+  "status": "passed",
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "6e9426ca-5834-4823-a858-0849f180d97e-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "start": 1716975609749,
+  "stop": 1716975609749,
+  "uuid": "f25bc222-9cf5-4e40-ad17-41d8dfe710f9",
+  "historyId": "ec11b878195f21b5c0eaca612ba86c63",
+  "testCaseId": "3dc244d23d76f4f1eb557c02cef6f9e4",
+  "fullName": "test_allure.TestSearch#test_case1",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "搜索模块"
+    },
+    {
+      "name": "suite",
+      "value": "test_allure"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSearch"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-AB77PAN"
+    },
+    {
+      "name": "thread",
+      "value": "3908-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_allure"
+    }
+  ]
+}

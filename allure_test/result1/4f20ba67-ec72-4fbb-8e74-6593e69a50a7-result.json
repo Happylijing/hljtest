@@ -1,0 +1,76 @@
+{
+  "name": "test_login_nopassword",
+  "status": "failed",
+  "statusDetails": {
+    "message": "AssertionError: assert '1' == 1\n  +'1'\n  -1",
+    "trace": "self = <allure_test.test_allure.TestLogin object at 0x0000020816F65AC0>\n\n    @allure.story(\"密码缺失\")\n    def test_login_nopassword(self):\n        with allure.step(\"点击用户名\"):\n            print(\"输入用户名：\")\n        with allure.step(\"点击密码\"):\n            print(\"输入密码\")\n        print(\"点击登录\")\n        with allure.step(\"点击登录之后登录失败\"):\n>           assert '1' == 1\nE           AssertionError: assert '1' == 1\nE             +'1'\nE             -1\n\ntest_allure.py:48: AssertionError"
+  },
+  "steps": [
+    {
+      "name": "点击用户名",
+      "status": "passed",
+      "start": 1716971977455,
+      "stop": 1716971977455
+    },
+    {
+      "name": "点击密码",
+      "status": "passed",
+      "start": 1716971977455,
+      "stop": 1716971977456
+    },
+    {
+      "name": "点击登录之后登录失败",
+      "status": "failed",
+      "statusDetails": {
+        "message": "AssertionError: assert '1' == 1\n  +'1'\n  -1\n",
+        "trace": "  File \"D:\\PycharmProjects\\hljtest\\allure_test\\test_allure.py\", line 48, in test_login_nopassword\n    assert '1' == 1\n"
+      },
+      "start": 1716971977456,
+      "stop": 1716971977457
+    }
+  ],
+  "start": 1716971977455,
+  "stop": 1716971977457,
+  "uuid": "0bbdf497-68f3-474a-ae41-1aebbfa0b19a",
+  "historyId": "597802365cfc059a0557cec31466357d",
+  "testCaseId": "9d36a8466eb09b77a9ab5ef760c7e3b0",
+  "fullName": "test_allure.TestLogin#test_login_nopassword",
+  "labels": [
+    {
+      "name": "story",
+      "value": "密码缺失"
+    },
+    {
+      "name": "feature",
+      "value": "登录模块"
+    },
+    {
+      "name": "suite",
+      "value": "test_allure"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestLogin"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-AB77PAN"
+    },
+    {
+      "name": "thread",
+      "value": "19836-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_allure"
+    }
+  ]
+}

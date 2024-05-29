@@ -1,0 +1,43 @@
+{
+  "name": "test_with_testcase_link",
+  "status": "passed",
+  "start": 1716973317123,
+  "stop": 1716973317123,
+  "uuid": "b67b763e-d38b-40ca-8d66-663e19482141",
+  "historyId": "aafb7e93587c7bee6f94fb58ce84f4ac",
+  "testCaseId": "48e5db9c195729bd50e5ca59141bc542",
+  "fullName": "test_case#test_with_testcase_link",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_case"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-AB77PAN"
+    },
+    {
+      "name": "thread",
+      "value": "19472-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_case"
+    }
+  ],
+  "links": [
+    {
+      "type": "test_case",
+      "url": "https://www.baidu.com/",
+      "name": "测试链接"
+    }
+  ]
+}

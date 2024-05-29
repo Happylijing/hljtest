@@ -1,0 +1,48 @@
+{
+  "name": "test_login_nousername",
+  "status": "passed",
+  "start": 1716971977450,
+  "stop": 1716971977450,
+  "uuid": "eccdce42-2380-405a-a1cf-f5fa50c32d0d",
+  "historyId": "ccd058bb3704070df33baf009f067190",
+  "testCaseId": "92525524fb8a4c76cb5a2dbd65ded096",
+  "fullName": "test_allure.TestLogin#test_login_nousername",
+  "labels": [
+    {
+      "name": "story",
+      "value": "用户名缺失"
+    },
+    {
+      "name": "feature",
+      "value": "登录模块"
+    },
+    {
+      "name": "suite",
+      "value": "test_allure"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestLogin"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-AB77PAN"
+    },
+    {
+      "name": "thread",
+      "value": "19836-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_allure"
+    }
+  ]
+}
