@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46ad29ce-cfa8-4a31-9ab7-c3da18595359" name="Default Changelist" comment="第1次上传git">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/steps/add_steps.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/test_mark.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/test_param.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/testdata/calc.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestdemo" beforeDir="false" afterPath="$PROJECT_DIR$/pytestdemo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestdemo/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pytestdemo/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythoncode/calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythoncode/calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/test_calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing/test_calc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/testdata/test_add_data.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/testdata/test_div_data.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/testdata/test_ids_add_data.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/testdata/test_mul_data.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/testdata/test_sub_data.yaml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +32,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2gSMJ5owPVSmTVEYBMw70NEFhWM" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -32,9 +43,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/testing/testdata" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\hljtest\testing\testdata" />
+      <recent name="D:\PycharmProjects\hljtest\allure_test\ziyuan" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\PycharmProjects\hljtest\testing\testdata" />
       <recent name="D:\PycharmProjects\hljtest\test_demo" />
@@ -42,31 +57,36 @@
       <recent name="D:\PycharmProjects\hljtest\pytest1" />
       <recent name="D:\PycharmProjects\hljtest\testcases" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\PycharmProjects\hljtest\testing\testdata" />
-      <recent name="D:\PycharmProjects\hljtest\allure_test\ziyuan" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_calc.TestCalc.test_div">
-    <configuration name="test3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for test_calc.TestCalc.test_add_steps">
+    <configuration name="pytest for test_calc.TestCalc" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="hljtest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\PycharmProjects\hljtest\test_demo\test3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_calc.TestCalc&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_calc.TestCalc.test_add_steps" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="hljtest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_calc.TestCalc.test_add_steps&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest for test_calc.TestCalc.test_div" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -84,14 +104,50 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_calc.TestCalc.test_mul" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="hljtest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_calc.TestCalc.test_mul&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_calc.TestCalc.test_zerodiv" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="hljtest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_calc.TestCalc.test_zerodiv&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.test3" />
+      <item itemvalue="Python tests.pytest for test_calc.TestCalc.test_mul" />
       <item itemvalue="Python tests.pytest for test_calc.TestCalc.test_div" />
+      <item itemvalue="Python tests.pytest for test_calc.TestCalc.test_zerodiv" />
+      <item itemvalue="Python tests.pytest for test_calc.TestCalc" />
+      <item itemvalue="Python tests.pytest for test_calc.TestCalc.test_add_steps" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_calc.TestCalc.test_add_steps" />
+        <item itemvalue="Python tests.pytest for test_calc.TestCalc" />
+        <item itemvalue="Python tests.pytest for test_calc.TestCalc.test_zerodiv" />
         <item itemvalue="Python tests.pytest for test_calc.TestCalc.test_div" />
-        <item itemvalue="Python.test3" />
+        <item itemvalue="Python tests.pytest for test_calc.TestCalc.test_mul" />
       </list>
     </recent_temporary>
   </component>
@@ -141,13 +197,20 @@
       <option name="project" value="LOCAL" />
       <updated>1716997226509</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="第1次上传git">
+      <created>1716997667860</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716997667860</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="第1次上传git" />
     <MESSAGE value="上传hljtest项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="上传hljtest项目" />
+    <MESSAGE value="第1次上传git" />
+    <option name="LAST_COMMIT_MESSAGE" value="第1次上传git" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -155,58 +218,65 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Notifications/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1715686514808" />
-    <state x="-1506" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1716996267475">
+    <state x="-1506" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1717054339276">
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
-    <state x="-1506" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1716996267475" />
-    <state x="-1322" y="112" key="CommitChangelistDialog2" timestamp="1716997304161">
+    <state x="-1506" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1717054339276" />
+    <state x="-1222" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1717050752628">
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
-    <state x="-1322" y="112" key="CommitChangelistDialog2/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1716997304161" />
-    <state width="1899" height="63" key="GridCell.Tab.0.bottom" timestamp="1716997140428">
+    <state x="-1222" y="322" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1717050752628" />
+    <state x="478" y="9" key="CommitChangelistDialog2" timestamp="1716999018004">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="-1322" y="112" key="CommitChangelistDialog2/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1716997731042" />
+    <state x="478" y="9" key="CommitChangelistDialog2/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1716999018004" />
+    <state width="1899" height="356" key="GridCell.Tab.0.bottom" timestamp="1717056488368">
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
-    <state width="1899" height="63" key="GridCell.Tab.0.bottom/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1716997140428" />
-    <state width="1899" height="63" key="GridCell.Tab.0.center" timestamp="1716997140428">
+    <state width="1899" height="356" key="GridCell.Tab.0.bottom/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1717056488368" />
+    <state width="1899" height="356" key="GridCell.Tab.0.center" timestamp="1717056488368">
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
-    <state width="1899" height="63" key="GridCell.Tab.0.center/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1716997140428" />
-    <state width="1899" height="63" key="GridCell.Tab.0.left" timestamp="1716997140428">
+    <state width="1899" height="356" key="GridCell.Tab.0.center/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1717056488368" />
+    <state width="1899" height="356" key="GridCell.Tab.0.left" timestamp="1717056488368">
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
-    <state width="1899" height="63" key="GridCell.Tab.0.left/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1716997140428" />
-    <state width="1899" height="63" key="GridCell.Tab.0.right" timestamp="1716997140428">
+    <state width="1899" height="356" key="GridCell.Tab.0.left/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1717056488368" />
+    <state width="1899" height="356" key="GridCell.Tab.0.right" timestamp="1717056488368">
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
-    <state width="1899" height="63" key="GridCell.Tab.0.right/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1716997140428" />
-    <state width="1899" height="245" key="GridCell.Tab.1.bottom" timestamp="1716993409244">
+    <state width="1899" height="356" key="GridCell.Tab.0.right/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1717056488368" />
+    <state width="1899" height="245" key="GridCell.Tab.1.bottom" timestamp="1716997743210">
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
-    <state width="1899" height="245" key="GridCell.Tab.1.bottom/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1716993409244" />
-    <state width="1899" height="245" key="GridCell.Tab.1.center" timestamp="1716993409244">
+    <state width="1899" height="245" key="GridCell.Tab.1.bottom/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1716997743210" />
+    <state width="1899" height="245" key="GridCell.Tab.1.center" timestamp="1716997743210">
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
-    <state width="1899" height="245" key="GridCell.Tab.1.center/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1716993409244" />
-    <state width="1899" height="245" key="GridCell.Tab.1.left" timestamp="1716993409244">
+    <state width="1899" height="245" key="GridCell.Tab.1.center/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1716997743210" />
+    <state width="1899" height="245" key="GridCell.Tab.1.left" timestamp="1716997743210">
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
-    <state width="1899" height="245" key="GridCell.Tab.1.left/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1716993409244" />
-    <state width="1899" height="245" key="GridCell.Tab.1.right" timestamp="1716993409244">
+    <state width="1899" height="245" key="GridCell.Tab.1.left/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1716997743210" />
+    <state width="1899" height="245" key="GridCell.Tab.1.right" timestamp="1716997743210">
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
-    <state width="1899" height="245" key="GridCell.Tab.1.right/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1716993409244" />
-    <state x="-1382" y="254" key="IDE.errors.dialog" timestamp="1715686786776">
+    <state width="1899" height="245" key="GridCell.Tab.1.right/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1716997743210" />
+    <state x="-1382" y="254" key="IDE.errors.dialog" timestamp="1716998074232">
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
-    <state x="-1382" y="254" key="IDE.errors.dialog/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1715686786776" />
-    <state x="-1459" y="162" key="SettingsEditor" timestamp="1716989496821">
+    <state x="-1382" y="254" key="IDE.errors.dialog/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1716998074232" />
+    <state x="-1459" y="162" key="SettingsEditor" timestamp="1717052535287">
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
-    <state x="-1459" y="162" key="SettingsEditor/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1716989496821" />
-    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2" timestamp="1716997455026">
-      <screen x="-1920" y="0" width="1920" height="1030" />
+    <state x="-1459" y="162" key="SettingsEditor/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1717052535287" />
+    <state x="200" y="90" key="SettingsEditor/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1717000031254" />
+    <state x="442" y="202" key="Vcs.Push.Dialog.v2" timestamp="1717000322229">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1716997455026" />
+    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1716998351881" />
+    <state x="442" y="202" key="Vcs.Push.Dialog.v2/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1717000322229" />
     <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1716991961704">
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
