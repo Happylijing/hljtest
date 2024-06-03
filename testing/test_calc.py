@@ -4,9 +4,6 @@
 import pytest
 import yaml
 
-from pythoncode.calculator import Calculator
-
-
 # 解析测试数据文件
 def get_datas(key):
     with open("testdata/calc.yml", encoding='utf-8') as f:
@@ -33,15 +30,16 @@ def steps(steps_file, calc, a, b, expect):
         assert expect == result
 
 
-class TestCalc:
-    # 类中调用全部方法前，运行一次
-    def setup_class(self):
-        print("计算开始")
-        self.calc = Calculator()  # 实例化被测类, 实例变量self.calc
 
-    # 类中调用全部方法后，运行一次
-    def teardown_class(self):
-        print("计算结束")
+class TestCalc:
+    # # 类中调用全部方法前，运行一次
+    # def setup_class(self):
+    #     print("计算开始")
+    #     self.calc = Calculator()  # 实例化被测类, 实例变量self.calc
+    #
+    # # 类中调用全部方法后，运行一次
+    # def teardown_class(self):
+    #     print("计算结束")
 
     # # 类中每次调用方法前，打印计算开始
     # def setup(self):
@@ -53,40 +51,46 @@ class TestCalc:
 
     # 加
     @pytest.mark.parametrize('a, b, expect', get_datas('add')[0], ids=get_datas('add')[1])
-    def test_add(self, a, b, expect):
-        result = self.calc.add(a, b)  # 调用被测类的方法
+    def test_add(self, get_calc, a, b, expect):
+        # result = self.calc.add(a, b)  # 调用被测类的方法
+        result = get_calc.add(a, b)  # 调用被测类的方法
         assert round(result, 2) == expect  # 断言被测方法的结果是否符合预期
 
     # 减
     @pytest.mark.parametrize('a, b, expect', get_datas('sub')[0], ids=get_datas('sub')[1])
-    def test_sub(self, a, b, expect):
-        result = self.calc.sub(a, b)  # 调用被测类的方法
+    def test_sub(self, get_calc, a, b, expect):
+        # result = self.calc.sub(a, b)  # 调用被测类的方法
+        result = get_calc.sub(a, b)  # 调用被测类的方法
         assert result == expect  # 断言被测方法的结果是否符合预期
 
     # 乘
     @pytest.mark.parametrize('a, b, expect', get_datas('mul')[0], ids=get_datas('mul')[1])
-    def test_mul(self, a, b, expect):
-        result = self.calc.mul(a, b)  # 调用被测类的方法
+    def test_mul(self, get_calc, a, b, expect):
+        # result = self.calc.mul(a, b)  # 调用被测类的方法
+        result = get_calc.mul(a, b)  # 调用被测类的方法
         assert round(result, 2) == expect  # 断言被测方法的结果是否符合预期
 
     # 除
     @pytest.mark.parametrize('a, b, expect', get_datas('div')[0], ids=get_datas('div')[1])
-    def test_div(self, a, b, expect):
-        result = self.calc.div(a, b)  # 调用被测类的方法
+    def test_div(self, get_calc, a, b, expect):
+        # result = self.calc.div(a, b)  # 调用被测类的方法
+        result = get_calc.div(a, b)  # 调用被测类的方法
         assert result == expect  # 断言被测方法的结果是否符合预期
 
     # 除-除数为0，直接捕获异常了，不会有结果
     @pytest.mark.parametrize('a, b', get_datas('zerodiv')[0], ids=get_datas('zerodiv')[1])
-    def test_zerodiv(self, a, b):
+    def test_zerodiv(self, get_calc, a, b):
         with pytest.raises(ZeroDivisionError):
-            self.calc.div(a, b)  # 调用被测类的方法
+            # self.calc.div(a, b)  # 调用被测类的方法
+            get_calc.div(a, b)  # 调用被测类的方法
 
-    def test_add_steps(self):
+    def test_add_steps(self, get_calc):
         a = 1
         b = 1
         expect = 2
         steps_file = "steps/add_steps.yml"
-        steps(steps_file, self.calc, a, b, expect)
+        # steps(steps_file, self.calc, a, b, expect)
+        steps(steps_file, get_calc, a, b, expect)
         # assert 2 == self.calc.add(1, 1)
         # assert 0 == self.calc.add(-1, 1)
         # assert 3 == self.calc.add1(1, 2)

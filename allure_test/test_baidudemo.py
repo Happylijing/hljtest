@@ -13,7 +13,7 @@ import allure
 @pytest.mark.parametrize('test_data1', ['allure', 'pytest', 'unittest'])
 def test_steps_demo(test_data1):
     with allure.step("打开百度网页"):
-        driver = webdriver.Chrome(executable_path="D:\SoftWare\ChromeDriver\chromedriver-win32\chromedriver.exe")
+        driver = webdriver.Chrome()
         driver.get("https://www.baidu.com")
         driver.maximize_window()
 
