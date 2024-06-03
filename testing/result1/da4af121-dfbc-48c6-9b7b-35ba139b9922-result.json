@@ -1,0 +1,54 @@
+{
+  "name": "test_zerodiv[bignum_case]",
+  "status": "passed",
+  "parameters": [
+    {
+      "name": "a",
+      "value": "100"
+    },
+    {
+      "name": "b",
+      "value": "0"
+    }
+  ],
+  "start": 1717142131605,
+  "stop": 1717142131605,
+  "uuid": "069078eb-8b6f-4811-82f0-24b6ab3c77bf",
+  "historyId": "37ae1f249c8fd5c673e0803e7a59f46a",
+  "testCaseId": "1691689e730f5b8465a7f1936ff7a1db",
+  "fullName": "test_calc.TestCalc#test_zerodiv",
+  "labels": [
+    {
+      "name": "tag",
+      "value": "div"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalc"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-AB77PAN"
+    },
+    {
+      "name": "thread",
+      "value": "19600-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    }
+  ]
+}

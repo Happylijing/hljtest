@@ -1,0 +1,65 @@
+{
+  "name": "test_add[整数用例]",
+  "status": "passed",
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "99c88443-3318-45be-a1e9-6ca20e08c177-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "a",
+      "value": "1"
+    },
+    {
+      "name": "b",
+      "value": "1"
+    },
+    {
+      "name": "expect",
+      "value": "2"
+    }
+  ],
+  "start": 1717142131698,
+  "stop": 1717142131698,
+  "uuid": "374c5d6d-99e8-4b9e-9ed0-c9f70a2ef38f",
+  "historyId": "a2f234af41139ce1f76515b161c486c0",
+  "testCaseId": "a7b29b08300809261dc069b49da8543b",
+  "fullName": "test_calc.TestCalc#test_add",
+  "labels": [
+    {
+      "name": "tag",
+      "value": "add"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalc"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-AB77PAN"
+    },
+    {
+      "name": "thread",
+      "value": "19600-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    }
+  ]
+}
